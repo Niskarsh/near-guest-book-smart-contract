@@ -3,6 +3,8 @@ Create a react app that can interact with the smart contract described below:
 - It should allow users to connect their near testnet wallet with app.
 - Once connected, it should allow users to send messages to smart contract, and attach near tokens(attaching near tokens is optional - dependent on user)
 - It should show latest 10 messages sent to smart contract and least 10 messages sent by signed in user.
+- Web App Design is up to developer. App should implement responsive design.
+
 
 
 # Near Blockchain
@@ -44,3 +46,7 @@ Gives highest donation provided.
 ## messages_by_signed_in_user()
 Gives all messages from signed in user(User whose wallet to connected to app at the time of call).
 
+# References
+- https://docs.near.org/build/web3-apps/quickstart
+- https://docs.near.org/build/smart-contracts/quickstart
+- https://docs.near.org/tutorials/examples/count-near
