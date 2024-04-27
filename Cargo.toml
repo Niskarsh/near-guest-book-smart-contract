@@ -1,0 +1,32 @@
+[package]
+name = "backend-rs"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+near-sdk = "5.1.0"
+serde = { version = "1.0", features = ["derive"] }
+schemars = "0.8.16"
+
+[dev-dependencies]
+near-workspaces = { version = "0.10.0", features = ["unstable"] }
+tokio = { version = "1.37.0", features = ["full"] }
+serde_json = "1.0"
+
+[scripts]
+test = "cargo test -- --nocapture --color always"
+
+[lib]
+crate-type=["rlib", "cdylib"]
+
+[profile.release]
+codegen-units = 1
+# Tell `rustc` to optimize for small code size.
+opt-level = "z"
+lto = true
+debug = false
+panic = "abort"
+# Opt into extra safety checks on arithmetic operations https://stackoverflow.com/a/64136471/249801
+overflow-checks = true
