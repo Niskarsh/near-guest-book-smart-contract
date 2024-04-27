@@ -2,7 +2,9 @@ App to leave feedback while leaving hotel. Can attach near tokens to messages as
 
 # Near Blockchain
 This Guest book smart contract lives in NEAR blockchain(TESTNET for now). Clone and test with testnet accounts or just have fun with deployed link.
-\nContract address: guest-book2.niskarsh31.testnet
+
+Contract address: guest-book2.niskarsh31.testnet
+
 Explore it here: https://testnet.nearblocks.io/address/guest-book2.niskarsh31.testnet
 
 ## Functions exposed by smart contract
