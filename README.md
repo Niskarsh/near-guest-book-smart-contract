@@ -14,15 +14,22 @@ Allows user to add new message. Can attach additional near tokens as donation as
 
 ### get_messages(offset: String, limit: String)
 Gets messages based on offset and limit.
+
 Offset: 0 , Limit: 10 => Gives last 10 messages
+
 Offset: 1 , Limit: 10 => Gives 2nd set of 10 messages from the end.
+
 Although values are integer, contract expects them as String. Offest: 0, and limit: 10 will be the only case needed for this assignment.
 
 ### get_premium_messages(offset: String, limit: String)
 Gets premium messages based on offset and limit.
+
 Premium messages are messages which have near tokens attached to them.
+
 Offset: 0 , Limit: 10 => Gives last 10 messages
+
 Offset: 1 , Limit: 10 => Gives 2nd set of 10 messages from the end.
+
 Although values are integer, contract expects them as String. Offest: 0, and limit: 10 will be the only case needed for this assignment.
 
 ### highest_donation()
