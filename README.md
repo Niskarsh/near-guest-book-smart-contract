@@ -50,3 +50,4 @@ Gives all messages from signed in user(User whose wallet to connected to app at 
 - https://docs.near.org/build/web3-apps/quickstart
 - https://docs.near.org/build/smart-contracts/quickstart
 - https://docs.near.org/tutorials/examples/count-near
+- https://docs.near.org/tools/near-cli
